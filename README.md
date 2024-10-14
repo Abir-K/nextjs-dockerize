@@ -19,7 +19,7 @@ on the terminal run the build command
 
 'Step 4'
 
-nginx congifuration file should looks like this 
+For nginx congifuration this is official nginx config refer:https://nextjs.org/docs/app/building-your-application/deploying/static-exports 
 
 
 'Final'

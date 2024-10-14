@@ -21,6 +21,9 @@ on the terminal run the build command
 
 For nginx congifuration this is official nginx config refer:https://nextjs.org/docs/app/building-your-application/deploying/static-exports 
 
+in the official documentation the following root directory is `root /var/www/out;`
+in this case i use different if you use this project as a reffer so, make sure your root directory is `root /usr/share/nginx/html;` in the config file
+
 
 'Final'
 

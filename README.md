@@ -24,4 +24,9 @@ For nginx congifuration this is official nginx config refer:https://nextjs.org/d
 
 'Final'
 
-refer this repository's 'Dockerfile' if you need
+For multistage build with nginx add these 2 line in dockerfile
+
+`COPY --from=build-stage /app/out/ /usr/share/nginx/html`
+`COPY ./conf/nginx.conf /etc/nginx/conf.d/default.conf`
+
+you must have to have nginx.conf file into your project directory in this case i use official nginx config which is referred on the upper link
